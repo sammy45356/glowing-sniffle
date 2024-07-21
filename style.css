@@ -1,0 +1,79 @@
+body{
+    background-color: blanchedalmond;
+   }
+   #timer{
+    font-size: 25px;
+    color:tan;
+    float:left;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #score{
+       font-size: 25px;
+       color:tan;
+       float:right;
+       margin-right: 80px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #to_be_drawn{
+    font-size: 25px;
+    color:tan;
+ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #show_sketch{
+       float:right;
+        
+       background-color:salmon;
+       font-size: 16px;
+       font-family:offside;
+   }
+   #p1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    color:salmon;
+    }
+    #confidence{
+        font-size: 25px;
+        color:tan;
+        
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #yourSketch{
+        font-size: 25px;
+        color:tan;
+        
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+   h1{
+ 
+
+   font-family:offside;
+   font-weight: bolder;
+   background-color: wheat;
+   }
+   canvas 
+{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+}
+p, span
+{
+  padding-top:10px;
+  
+  font-size:25px;  
+  font-size: 25px;
+  color:tan;
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
